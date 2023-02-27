@@ -2,7 +2,7 @@ from pulp import *
 import pandas as pd
 import numpy as np
 
-#We need to know how many citites and plants
+# They are four citites and three plants in Powerco problem
 n_Plants = 3
 n_Cities = 4
 
