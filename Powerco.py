@@ -2,6 +2,7 @@ from pulp import *
 import pandas as pd
 import numpy as np
 
+#We need to know how many citites and plants
 n_Plants = 3
 n_Cities = 4
 
@@ -26,7 +27,7 @@ objective_function = lpSum(allocation*Cost)
 print(objective_function)
 model +=  objective_function
 print(model)
-#Supply Constraints
+# Supply Constraints
 for i in range(n_Plants):
     print(lpSum(allocation[i][j] for j in range(n_Cities)) <= Plant_supply[i])
     model += lpSum(allocation[i][j] for j in range(n_Cities)) <= Plant_supply[i] , "Supply Constraints " + str(i)
@@ -40,3 +41,7 @@ status =  LpStatus[model.status]
 
 print(status)
 print("Total Cost:", model.objective.value())
+
+# Yazid Salem Ba Sharahil
+# Industrial Engineering
+# Eng.yazidbasharahil@gmail.com
