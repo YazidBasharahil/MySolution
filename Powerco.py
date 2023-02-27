@@ -1,8 +1,15 @@
+# Solving a Linear Programming by python
+# Powerco problem
+# I discoved the Powerco have 12 decision variables, 3 supply constraints, and 4 demand constraints.
+# decision variables: i are discribe the plant and j are decribe city (Xij)
+# I want to know what the minimum cost for Powerco
+# Also, what's the minimum limit from supply and demand
+# At the end, what's the optiomal soluation
+
 from pulp import *
 import pandas as pd
 import numpy as np
 
-# They are four citites and three plants in Powerco problem
 n_Plants = 3
 n_Cities = 4
 
