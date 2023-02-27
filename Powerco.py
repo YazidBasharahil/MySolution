@@ -49,6 +49,11 @@ status =  LpStatus[model.status]
 print(status)
 print("Total Cost:", model.objective.value())
 
-# Yazid Salem Ba Sharahil
-# Industrial Engineering
-# Eng.yazidbasharahil@gmail.com
+# My information:
+# Name: Yazid Salem Ba Sharahil
+# ID: 1944950
+# Senior of Industrial Engineering student in University of Jeddah
+# Date: 02-11-2022
+# (+966) 58-054-6339
+# likedin:https://www.linkedin.com/in/yazid-ba-sharahil-31a2a9257/
+
