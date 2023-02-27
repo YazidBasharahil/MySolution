@@ -1,4 +1,4 @@
-# Solving a Linear Programming by python
+# Solve the problem by using Linear Programming in python
 # Powerco problem
 # I discoved the Powerco have 12 decision variables, 3 supply constraints, and 4 demand constraints.
 # decision variables: i are discribe the plant and j are decribe city (Xij)
